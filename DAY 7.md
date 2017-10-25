@@ -148,4 +148,4 @@ sourcetree 에서 commit, push가 자꾸만 실패한다...
 3. git add . 으로 stage에 올린다.
 4. git commit -m "_commit message_" 
 5. git push origin master
-6. github pasword 입력하면 업로드 완료!
+6. github password 입력하면 업로드 완료!
