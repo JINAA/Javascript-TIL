@@ -131,3 +131,21 @@ console.log(sum);
 console.log("End...");
 ```
 
+
+
+> **git**
+
+sourcetree 에서 commit, push가 자꾸만 실패한다...
+
+결국 터미널에서 하는게 깔끔하고 직관적인것 같아 보이기 시작했...ㅜ
+
+
+
+#####commit할 파일이 하나일때.
+
+1. git저장소로 들어간다.
+2. git status 로 현재 commit할 파일을 확인한다.
+3. git add . 으로 stage에 올린다.
+4. git commit -m "_commit message_" 
+5. git push origin master
+6. github pasword 입력하면 업로드 완료!
