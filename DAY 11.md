@@ -173,7 +173,9 @@ console.log("end");
 
 -- html파일 결과를 확인해보자.
 
-![Screenshot-2017-10-26 Screenshot](/Users/jina/Desktop/image/Screenshot-2017-10-26 Screenshot.png)
+**![test](./img/test.png)**
+
+
 
 2. 연습문제
 
@@ -224,5 +226,5 @@ document.write(++count + "번 만에 맞춤");
 
 — 결과
 
-![Screenshot-2017-10-26 Screenshot](/Users/jina/Downloads/Screenshot-2017-10-26 Screenshot.png)
+![htmltest](./img/htmltest.png)
 
