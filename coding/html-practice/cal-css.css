@@ -1,0 +1,16 @@
+p {
+  width:413px;
+  height:60px;
+  font-size:30px;
+  text-align:right;
+  
+}
+button {
+  width: 100px;
+  height: 100px;
+  border-radius:45px;
+  background-color:black;
+  font-size:25px;
+  color:white;
+}
+
