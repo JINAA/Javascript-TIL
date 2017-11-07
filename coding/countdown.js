@@ -75,11 +75,23 @@ var fact = function(n) {
 var x = fact(3);
 console.log("%s = %d",str,x);
 
-//재귀로 피보나치
-var fb = function(n) {
-	if (n === 1 &n === 2) {
+//피보나치
+var fibo = function(n) {
+    if (n === 0) {
 		return 0;
+	} else if (n  === 1) {
+		return 1;
 	}
-	return n + fb(n + 1);
+    
+	return fibo(n - 1) + fibo(n - 2);
+};
+
+
+var answer = [];
+
+for (var i = 0; i < 30; i++) {
+	answer.push(fibo(i));
 }
+
+console.log(answer);
 
