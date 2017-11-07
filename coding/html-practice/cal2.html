@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="cal2.css">
+</head>
+<body>
+
+	<div id = "display">숫자를 입력하세요</div>
+	<button style = "width:205px; height:100px;" onclick="reset()">RESET</button>
+	<button onclick="erase('←')">←</button>
+	<button id = 'operator +' onclick="clickNum('+')">+</button><br>
+	<button id = 'num7' onclick="clickNum(7)">7</button>
+	<button id = 'num8' onclick="clickNum(8)">8</button>
+	<button id = 'num9' onclick="clickNum(9)">9</button>
+	<button id = 'operator -' onclick="clickNum('-')">-</button><br>
+	<button id = 'num4' onclick="clickNum(4)">4</button>
+	<button id = 'num5' onclick="clickNum(5)">5</button>
+	<button id = 'num6' onclick="clickNum(6)">6</button>
+	<button id = 'operator *' onclick="clickNum('*')">*</button><br>
+	<button id = 'num1' onclick="clickNum(1)">1</button>
+	<button id = 'num2' onclick="clickNum(2)">2</button>
+	<button id = 'num3' onclick="clickNum(3)">3</button>
+	<button id = 'operator /' onclick="clickNum('/')">/</button><br>
+	<button id = 'num0' style = "width:205px; height:100px;" onclick="clickNum(0)">0</button>
+	<button onclick="clickNum('.')">.</button>
+	<button id = 'equal' onclick="clickNum('=')">=</button>
+
+
+</body>
+	<script src="cal2.js"></script>
+</html>
+
