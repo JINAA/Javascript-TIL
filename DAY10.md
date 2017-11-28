@@ -66,6 +66,7 @@ arr.push(...arr2); // arr = [4,5,6,1,2,3];
 1. project 저장소에서 호스팅할 프로젝트 파일들을 메인으로
 2. html 파일만 이름을 index로
 3. 터미널에서 브랜치를 gh-pages
-4. add,commit
-5. git push -u origin ph-pages
-6. 인터넷 주소창에 http://jinaa.github.io/project/
+4. master 브랜치와 merge
+5. add,commit
+6. git push -u origin ph-pages
+7. 인터넷 주소창에 http://jinaa.github.io/project/
